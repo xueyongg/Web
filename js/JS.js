@@ -8,3 +8,10 @@ function addToDo(input_text){
     Materialize.toast('To do as been added', 4000)
 };
 
+function addTask(input_text){
+    var newAppend = document.getElementById("textarea1");
+    $("#taskOnHand").append( "<li>"+newAppend+"</li>" );
+    Materialize.toast('Task as been added', 4000)
+    
+};
+
